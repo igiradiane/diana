@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+#header{
+    padding: 60px;
+    text-align: center;
+    background-color: #111111;
+}
+#tt a{
+    margin: 7px;
+padding: 5px;
+display: inline-block;
+text-decoration: none;
+color: blue;
+
+}
+#tt{
+    background-color: #111111;
+    
+}
+#sectio{
+display: flex;
+flex-wrap: wrap;
+margin: 20px;
+
+}
+#ter{
+    flex:33%;
+    background-color: beige;
+    padding: 10px;
+    
+}
+#middle{
+    flex:33%;
+    background-color: beige;
+    padding: 10px;
+    
+}
+#right{
+    flex:33%;
+    background-color: beige;
+    padding: 10px;
+}
+
+#hea{
+    border-bottom-style: solid;
+    border-bottom-color:red;
+    margin-left: 400px;
+    background-color: transparent;
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    flex: 33%;
+    float: left;
+}
+#foot{
+    background-color: #111111;
+    color: aqua;
+    text-align: end;
+    padding: 20px;
+}
+#ter{
+    width: 450px;
+    
+}
+#tet{
+    
+    display: flex;
+    float: left;
+}
+div{
+    border-radius: 10px;
+}
+@media (max-width:700px){
+#tt{
+flex-direction: column;
+display: flex;
+background-color: #ddd;}
+#header{
+background-color: rgb(71,124,214);
+}
+#sectio{
+    flex-direction: column;
+}
+#hea{
+    flex-direction: column;
+    float: left;
+}
+#tet{
+    flex-flow: column;
+    float: left;
+}
+}
+
+
